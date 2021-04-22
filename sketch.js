@@ -70,10 +70,10 @@ function feedDog(){
     Food:foodS
   })
   //write code here to update food stock and last fed time
-  lastFed=lastFed;
-  database.ref('/').update({
-    feedTime:lastFed
-  })
+ // lastFed=lastFed;
+  //database.ref('/').update({
+  //  feedTime:lastFed
+  //})
 
 }
 
